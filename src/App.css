@@ -20,29 +20,28 @@
 
 #root {
   /* PC */
-  position: absolute;
   width: 100%;
-  max-width: 544px;
   height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
   background-color: var(--white);
   color: var(--black);
-  overflow: hidden;
+  padding-top: env(safe-area-inset-top);
+
 }
 
 body {
   position: absolute;
   width: 100dvw;
+  max-width: 544px;
   height: 100dvh;
   margin: 0;
   padding: 0;
-  top: 0;
-  left: 0;
 
-  padding-top: env(safe-area-inset-top);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  overflow: hidden;
 
   -ms-overflow-style: none;
   -webkit-user-select: none;
