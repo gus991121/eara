@@ -50,9 +50,6 @@ body {
   -moz-user-select: none;
   -ms-use-select: none;
   user-select: none;
-  width: 100dvw;
-  height: 100dvh;
-  overflow: hidden;
 }
 ::-webkit-scrollbar {
   display: none;
